@@ -1,0 +1,62 @@
+body {
+    display: grid;
+    justify-content: center;
+    background: black;
+}
+fieldset {
+    background: rgb(255, 169, 169);
+    padding: 20px;
+    border: solid  rgba(0, 0, 0, 0.336) 5px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+label {
+    padding: 5px;
+    border: solid  rgba(0, 0, 0, 0.336) 1px;
+    border-radius: 10px;
+    background: rgb(70, 70, 70);
+    color: white;
+}
+label, input {
+    width: 300px;
+    height: 20px;
+    margin: 5px;
+}
+input.sub {
+    margin-top: 20px;
+    height: 30px;
+    border:  rgba(0, 0, 0, 0.336);
+    border-radius: 10px;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    font-size: 20px;
+    font-family: Impact;
+}
+input.sub:hover {
+    cursor: pointer;
+}
+p {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+a {
+    color: white;
+}
+.massage {
+    border-radius: 10px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+p{
+    color: black;
+}
+
+a{
+    color: black;
+}
